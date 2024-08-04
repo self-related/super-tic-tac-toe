@@ -1,7 +1,7 @@
 # super-tic-tac-toe
 
 Деплой: https://self-related.github.io/super-tic-tac-toe/
-https://self-related.github.io/super-tic-tac-toe/
+
 Крестики-нолики по новым правилам на React.js
 
 
