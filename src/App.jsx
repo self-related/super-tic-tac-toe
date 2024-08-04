@@ -29,7 +29,7 @@ export default function App() {
   }
   
   //обернуть значения в компонент Cell
-  const fieldsList = cells.map( (element, index) => 
+  const cellsList = cells.map( (element, index) => 
     (<Cell id={index} key={index} value={element} onClick = {onClickCell} />) 
   );
 
@@ -37,7 +37,7 @@ export default function App() {
     <GameStats.Provider value={gameStats}>
       <StatsPanel cells={cells} onClickRestart={onClickRestart} />
       <div className='game-board'>
-        {fieldsList}
+        {cellsList}
       </div>
       <Rules />
     </GameStats.Provider>
