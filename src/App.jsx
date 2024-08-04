@@ -11,7 +11,7 @@ export default function App() {
   const [cells, setCells] = useState(new Array(9).fill(null)); //массив со значениями клеток
   const [gameStats, setGameStats] = useState({turns: 1, isXTurn: true, winner: null}); //общие статусы для компонентов
 
-  //клик по клетке <Field />
+  //клик по клетке <Cell />
   const onClickCell = (id) => {
 
     cells[id] = gameStats.isXTurn ? "X" : "0"; // Х если очередь Х, иначе 0
