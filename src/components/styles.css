@@ -1,0 +1,106 @@
+/* Cell */
+.cell {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    font-size: min(84px, 12vw); /*proportional font*/
+}
+
+.cell:not(.unavailable, .winner):hover {
+    background-color: orange;
+}
+
+.cell:not(.unavailable, .winner):active {
+    background-color: crimson;
+}
+
+.unavailable {
+    background-color: gray;
+}
+
+.winner {
+    background-color: rgb(5, 202, 5);
+}
+
+
+
+/* StatsPanel */
+.stats-panel {
+    width: 70%;
+    margin: auto;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: min(20px, 2.9vw);
+
+}
+.stats-panel * {
+    margin: 2px;
+    color: white;
+    text-shadow: 0.1em 0.08em 0.03em black;
+
+}
+.stats-panel h1 {
+    font-size: 1.7em;
+    margin-top: 0.2;
+    margin-bottom: 0.2em;
+}
+
+.stats-panel p {
+    font-size: 1.2em;
+    font-weight: 600;
+    
+
+}
+.stats-panel button {
+    background-color: rgb(197, 13, 13);
+    color: white;
+    width: 5em;
+    border: 3px solid rgb(193, 19, 54);
+    font-weight: 600;
+
+}
+
+.stats-panel .red-font {
+    text-decoration: underline solid red;
+    text-decoration-thickness: 0.1em;
+
+}
+
+.stats-panel button:hover {
+    background-color: rgb(238, 46, 84);
+    border-color: rgb(238, 46, 84);
+
+}
+
+
+.stats-panel button:active {
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+
+/* Rules */
+
+.rules {
+    color: white;
+    width: 70%;
+    background-color: rgb(64, 62, 62);
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: min(15px, 2.5vw);
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .rules * {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .rules > h2 {
+    text-align: center;
+  }

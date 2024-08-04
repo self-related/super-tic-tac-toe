@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: black;
+
+}
+body * {
+  box-sizing: border-box;
+}
+
+#root {
+  padding: 5vw;
+  width: 100vw;
+  max-width: 700px;
+  height: 100vw;
+  max-height: 700px;
+  /* background-color: rgb(28, 28, 28); */
+  margin: auto;
+  
+}
